@@ -2,7 +2,7 @@
 # 2023-08-09
 
 
-## Designing method:
+# Designing method:
 
 # 1. main.cpp is the entrance for the program, a endless loop to ensure the socket listening process. A new OrderManage object is created in main.cpp and start to receive, add, match new orders.
 # 2. The main part of engine is the OrderManage Class, its function includes adding new order, matching orders, delete empty orders, print orders and receive new orders.
@@ -10,7 +10,7 @@
 # 4. TCP connection is fulfiled by tcpsocket.cpp and tcpserver.cpp, referenced by [“Asynchronous Sockets for C++”](https://github.com/eminfedar/async-sockets-cpp) (https://github.com/eminfedar/async-sockets-cpp), which is a thread-based, non-blocking asynchronous client-server classes in C++ for TCP.
 # 5. We use 127.0.0.1 and port 8888 for the tcp connection.
 
-## Compile and run:
+# Compile and run:
 
 # 1. The program is compiled and run under Linux. 
 # 2. Compile requirements: I used g++ 9.4.0, lower version is also availale.
